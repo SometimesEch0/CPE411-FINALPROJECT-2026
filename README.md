@@ -1,50 +1,92 @@
-# Atomisight: An Marker-based Augmented Reality Learning Tool for Atomic Structure
 
-## Overview
 
-ATOMISIGHT is a marker-based Augmented Reality (AR) mobile learning application designed to help students understand the basic concepts of atomic structure through interactive visualization. By combining AR technology with simplified atomic models, the application transforms traditional chemistry learning into a more engaging and immersive experience.
+#  Atomisight
 
-## Features
+###  Marker-Based Augmented Reality Learning Tool for Atomic Structure
 
-* **Marker-Based AR Scanning**
-  Users can scan printed markers using their smartphone camera to generate corresponding 3D atomic models.
+---
 
-* **3D Atomic Visualization**
-  Displays three-dimensional representations of atoms, allowing users to explore the structure of elements from the Periodic Table.
+## 🚀 Overview
 
-* **Element Information Display**
-  Provides essential details such as:
+**Atomisight** is a mobile learning application that uses **Augmented Reality (AR)** to help students understand the **Periodic Table of Elements** and **atomic structures** in a more interactive and engaging way.
 
-  * Element name
-  * Atomic number
-  * Basic chemical properties
+Instead of memorizing, users can **scan markers** and explore **3D atomic models** in real-time using their smartphones.
 
-* **Interactive Atomic Manipulation**
-  Users can interact with atomic models by:
+---
 
-  * Adding protons, neutrons, and electrons
-  * Removing subatomic particles
-  * Observing how these changes affect the atomic structure
+## 🎯 Objectives
 
-## How It Works
+* 🔍 Visualize **3D atomic structures** using AR
+* ⚛️ Show **protons, neutrons, and electrons** clearly
+* 📊 Provide **element information** (name, symbol, atomic number)
+* 🎮 Allow interaction (rotate, zoom, modify atoms)
+* 📚 Improve understanding of chemistry concepts
 
-1. **Launch the Application**
-   Upon opening ATOMISIGHT, users are presented with a simple interface containing instructions on how to use the system.
+---
 
-2. **Scan a Marker**
-   Point the device’s camera toward a printed marker associated with a specific element.
+## ✨ Features
 
-3. **View the Atomic Model**
-   Once the marker is detected, a 3D atomic model is overlaid onto the real-world environment through the device screen.
+* 📷 **Marker Scanning** – Detect printed markers using camera
+* 🧊 **3D Atomic Models** – View atoms in augmented reality
+* 🔄 **Interactive Controls** – Rotate and zoom models
+* ➕➖ **Modify Particles** – Add/remove protons, neutrons, electrons
+* 📖 **Element Info Panel** – Displays key chemical data
+* 🎮 **Mini Quiz/Game** – Test knowledge
 
-4. **Explore and Learn**
-   Users can examine the arrangement of protons, neutrons, and electrons, while also viewing key information about the element.
+---
 
-5. **Interact with the Atom**
-   Enter interactive mode to modify the atomic structure and better understand the relationships between subatomic particles.
+## 📱 System Requirements
 
-## Purpose
+* 📲 Android Device
+* ⚙️ Quad-core processor (1.8 GHz or higher)
+* 🧠 3 GB RAM or higher
+* 🤖 Android 8.0 (Oreo) or above
 
-ATOMISIGHT aims to make chemistry concepts easier to understand by bridging the gap between abstract theory and visual learning. It encourages students to explore atomic structures in a hands-on way, promoting deeper comprehension and engagement.
+---
+
+## 🛠️ How It Works
+
+1. Open the app 📲
+2. Tap **Start Exploring** ▶️
+3. Point camera at a marker 📷
+4. View the **3D atomic model** 🧪
+5. Interact and explore 🔄
+
+---
+
+## 📌 Scope & Limitations
+
+### ✅ Scope
+
+* Focuses on **selected elements only**
+* Designed for **Senior High School STEM students**
+* Covers **basic atomic structure only**
+
+### ❌ Limitations
+
+* Does not include all elements
+* No advanced chemistry (e.g., reactions)
+* Requires AR-supported devices
+
+---
+
+## 🧩 Tech Stack
+
+* 🎮 Unity (Game Engine)
+* 📦 AR SDK (Marker-based AR)
+* 📱 Android Platform
+
+---
+
+## 👨‍💻 Developers
+
+* 👤 Paul Daniel T. Arindaeng
+* 👤 Arjay Flores
+* 👤 Eman Jewel A. Gutierrez
+* 👤 Obi Rodriguez
+
+🏫 Technological Institute of the Philippines – Quezon City
+
+---
 
 
