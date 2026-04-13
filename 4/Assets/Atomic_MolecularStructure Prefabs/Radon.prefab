@@ -9735,6 +9735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Radon
       objectReference: {fileID: 0}
+    - target: {fileID: -6689036041284674117, guid: b3b480068cdce31488158a51021d86ee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -3068355929205498844, guid: b3b480068cdce31488158a51021d86ee, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.17
@@ -9769,15 +9773,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: b3b480068cdce31488158a51021d86ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.17
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: b3b480068cdce31488158a51021d86ee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: b3b480068cdce31488158a51021d86ee, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.97
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: b3b480068cdce31488158a51021d86ee, type: 3}
       propertyPath: m_LocalRotation.w

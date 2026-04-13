@@ -10,7 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -6689036041284674117, guid: b3b480068cdce31488158a51021d86ee, type: 3}
       propertyPath: m_Name
-      value: Oxygen 1
+      value: Oxygen
+      objectReference: {fileID: 0}
+    - target: {fileID: -6689036041284674117, guid: b3b480068cdce31488158a51021d86ee, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -6265823981020067623, guid: b3b480068cdce31488158a51021d86ee, type: 3}
       propertyPath: m_LocalPosition.x
@@ -70,15 +74,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: b3b480068cdce31488158a51021d86ee, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.21
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: b3b480068cdce31488158a51021d86ee, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: b3b480068cdce31488158a51021d86ee, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.85
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2774220344278030320, guid: b3b480068cdce31488158a51021d86ee, type: 3}
       propertyPath: m_LocalRotation.w

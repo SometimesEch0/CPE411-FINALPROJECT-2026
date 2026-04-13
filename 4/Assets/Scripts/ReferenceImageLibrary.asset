@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4871670867640072700
+  m_GuidHigh: 18227083613025993403
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5290447023144205576
+      m_GuidHigh: 14101260317463556496
+    m_SerializedTextureGuid:
+      m_GuidLow: 13273267729108662629
+      m_GuidHigh: 13754773793178169259
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Oxygen
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5740680784633899412
+      m_GuidHigh: 6240127038790529676
+    m_SerializedTextureGuid:
+      m_GuidLow: 14246030867309357922
+      m_GuidHigh: 12431792304047320536
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Fluorine
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5133001118973621490
+      m_GuidHigh: 13811081137386834821
+    m_SerializedTextureGuid:
+      m_GuidLow: 10656804228088550364
+      m_GuidHigh: 9027924787996192586
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Krypton
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5176029801379080418
+      m_GuidHigh: 9123921984383310500
+    m_SerializedTextureGuid:
+      m_GuidLow: 591250929011576122
+      m_GuidHigh: 16495373357502846731
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Xenon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5364628193578757377
+      m_GuidHigh: 2668302327789613740
+    m_SerializedTextureGuid:
+      m_GuidLow: 17966053923974589254
+      m_GuidHigh: 519847733516193722
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: Radon
+    m_Texture: {fileID: 0}
