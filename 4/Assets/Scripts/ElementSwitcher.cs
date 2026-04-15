@@ -5,34 +5,29 @@ public class ElementSwitcher : MonoBehaviour
 {
     private ARTrackedImage trackedImage;
 
-   void Awake()
-	{
-    trackedImage = GetComponent<ARTrackedImage>();
-    // This kills the "Stuck" model on startup
-    foreach (Transform child in transform) 
-   		 { 
-        child.gameObject.SetActive(false); 
-    		}
-	}
-
-    void OnEnable()
+    void Awake()
     {
-        // This runs the moment the card is detected
-        UpdateElementVisibility();
+        trackedImage = GetComponent<ARTrackedImage>();
     }
 
-    public void UpdateElementVisibility()
+    void Update()
     {
         if (trackedImage == null || trackedImage.referenceImage == null) return;
 
-        // Get the name of the image from your Reference Library (e.g., "Xenon")
-        string imageName = trackedImage.referenceImage.name;
+        string cardName = trackedImage.referenceImage.name;
+        bool isTracking = trackedImage.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking;
 
-        // Loop through all 3D children (the atoms your teammate made)
         foreach (Transform child in transform)
         {
-            // Only turn ON the child that matches the card name exactly
-            child.gameObject.SetActive(child.name == imageName);
+            child.gameObject.SetActive(child.name == cardName && isTracking);
+        }
+    }
+
+    void OnDisable()
+    {
+        foreach (Transform child in transform)
+        {
+            child.gameObject.SetActive(false);
         }
     }
 }
