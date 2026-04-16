@@ -5324,6 +5324,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 791609967637840779}
+  - component: {fileID: 3716699402249332339}
+  - component: {fileID: 8559096611274907167}
   m_Layer: 0
   m_Name: Xenon
   m_TagString: Untagged
@@ -5347,6 +5349,43 @@ Transform:
   - {fileID: 777203590597746326}
   m_Father: {fileID: 3950070134758909879}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3716699402249332339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105522173480389056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b62f2def67d9a42a427c568f929a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 300
+  minScale: 0.04
+  maxScale: 2
+  zoomSensitivity: 0.002
+--- !u!135 &8559096611274907167
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1105522173480389056}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1106055106490021917
 GameObject:
   m_ObjectHideFlags: 0
@@ -20800,6 +20839,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4290767790092800714}
+  - component: {fileID: 3786899797633694101}
+  - component: {fileID: 2044812872852836063}
   m_Layer: 0
   m_Name: Oxygen
   m_TagString: Untagged
@@ -20823,6 +20864,43 @@ Transform:
   - {fileID: 4305068561403056087}
   m_Father: {fileID: 3950070134758909879}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3786899797633694101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4476605582459066497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b62f2def67d9a42a427c568f929a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 300
+  minScale: 0.04
+  maxScale: 2
+  zoomSensitivity: 0.002
+--- !u!135 &2044812872852836063
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4476605582459066497}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4503072043902258903
 GameObject:
   m_ObjectHideFlags: 0
@@ -22797,6 +22875,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4707071741331125397}
+  - component: {fileID: 3325279285789207536}
+  - component: {fileID: 2495465882685027415}
   m_Layer: 0
   m_Name: Krypton
   m_TagString: Untagged
@@ -22820,6 +22900,43 @@ Transform:
   - {fileID: 4712897512046389640}
   m_Father: {fileID: 3950070134758909879}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3325279285789207536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4970046897767694046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b62f2def67d9a42a427c568f929a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 300
+  minScale: 0.04
+  maxScale: 2
+  zoomSensitivity: 0.002
+--- !u!135 &2495465882685027415
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4970046897767694046}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4990734839283180010
 GameObject:
   m_ObjectHideFlags: 0
@@ -31681,6 +31798,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6593787440881367160}
+  - component: {fileID: 5302003407581730644}
+  - component: {fileID: 8087850508802336201}
   m_Layer: 0
   m_Name: Radon
   m_TagString: Untagged
@@ -31704,6 +31823,43 @@ Transform:
   - {fileID: 6608088125352748389}
   m_Father: {fileID: 3950070134758909879}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5302003407581730644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6785254620039082547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b62f2def67d9a42a427c568f929a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 300
+  minScale: 0.04
+  maxScale: 2
+  zoomSensitivity: 0.002
+--- !u!135 &8087850508802336201
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6785254620039082547}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6788546107028361319
 GameObject:
   m_ObjectHideFlags: 0
@@ -36547,6 +36703,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7624400144470393992}
+  - component: {fileID: 235155124694213541}
+  - component: {fileID: 3206076401730367944}
   m_Layer: 0
   m_Name: Fluorine
   m_TagString: Untagged
@@ -36570,6 +36728,43 @@ Transform:
   - {fileID: 7636482189430004117}
   m_Father: {fileID: 3950070134758909879}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &235155124694213541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7810517275071729347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b62f2def67d9a42a427c568f929a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 300
+  minScale: 0.04
+  maxScale: 2
+  zoomSensitivity: 0.002
+--- !u!135 &3206076401730367944
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7810517275071729347}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7811879240947691584
 GameObject:
   m_ObjectHideFlags: 0
