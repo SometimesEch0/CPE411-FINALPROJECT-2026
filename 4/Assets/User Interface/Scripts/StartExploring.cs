@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-using TMPro;
-
-public class ButtonClick : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
-    public TMP_Text text;
-
+    public void LoadUserInterface()
+    {
+        SceneManager.LoadScene("UserInterface");
+    }
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +20,5 @@ public class ButtonClick : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public void ClickButton()
-    {
-        text.text = "You clicked the button";
     }
 }
