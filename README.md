@@ -19,7 +19,7 @@ Instead of memorizing, users can **scan markers** and explore **3D atomic models
 * 🔍 Visualize **3D atomic structures** using AR
 * ⚛️ Show **protons, neutrons, and electrons** clearly
 * 📊 Provide **element information** (name, symbol, atomic number)
-* 🎮 Allow interaction (rotate, zoom, modify atoms)
+* 🎮 Allow interaction (rotate, zoom)
 * 📚 Improve understanding of chemistry concepts
 
 ---
@@ -29,7 +29,6 @@ Instead of memorizing, users can **scan markers** and explore **3D atomic models
 * 📷 **Marker Scanning** – Detect printed markers using camera
 * 🧊 **3D Atomic Models** – View atoms in augmented reality
 * 🔄 **Interactive Controls** – Rotate and zoom models
-* ➕➖ **Modify Particles** – Add/remove protons, neutrons, electrons
 * 📖 **Element Info Panel** – Displays key chemical data
 * 🎮 **Mini Quiz/Game** – Test knowledge
 
